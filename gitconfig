@@ -1,1 +1,33 @@
-/home/elserj/.gitconfig
+[user]
+	name = Josh Elser
+	email = elserj@rpi.edu
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+
+[color "branch"]
+	current = yellow reverse
+       local = yellow
+       remote = green
+
+[color "diff"]
+       meta = yellow bold
+       frag = magenta bold
+       old = red bold
+       new = green bold
+
+[color "status"]
+       added = yellow
+       changed = green
+       untracked = cyan
+
+[alias]
+	stat = status
+	st = status
+	ci = commit
+	br = branch
+	co = checkout
+	df = diff
+	lg = log -p
+
