@@ -173,7 +173,7 @@ YOKADI_HISTORY=$RLWRAP_HOME/yokadi_history
 LESS="-rIM"
 
 # Setup ls
-alias ls='ls -h --color=auto'
+alias ls='ls -h -G'
 alias ll='ls -l'
 alias la='ls -a'
 
